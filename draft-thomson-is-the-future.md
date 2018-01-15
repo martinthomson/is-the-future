@@ -17,12 +17,24 @@ author:
     email: martin.thomson@gmail.com
 
 normative:
+
+informative:
   ISE-LIST:
     title: "ISE stream documents"
     date: 2018-01-11
     target: "https://datatracker.ietf.org/stream/ise/"
 
-informative:
+  TCP-HOST-ID-CONFLICT:
+    title: "IETF conflict review for draft-williams-exp-tcp-host-id-opt"
+    date: 2016-01-25
+    target: "https://datatracker.ietf.org/doc/conflict-review-williams-exp-tcp-host-id-opt/"
+
+  DECADE-CLOSE:
+    title: "Re: [decade] WG Action: Conclusion of Decoupled Application Data Enroute (decade)"
+    date: 2012-09-20
+    author:
+      - ins: M. Stiemerling
+    target: "https://mailarchive.ietf.org/arch/msg/decade/7dTtoNLcBQtisbQz_gLoy9mzCNM/?qid=2191467278aad4be9b52f7d1781d1cf7"
 
 
 --- abstract
@@ -102,14 +114,16 @@ Note:
   those documents under analysis.
 
 Earlier documents include work that might today be attributed to the IETF
-stream.  Excluding those published on the first day of April (see {{april1}}),
+stream.  For instance, RFC 3629 {{?UTF8=RFC3629}} is an Internet Standard, but
+published on the stream.
+
+Excluding those published on the first day of April (see {{april1}}),
 these recent documents only include documents that are designated
 "Informational" (150), "Experimental" (21), and "Historic" (8).
 
-Through analysis, several key motivations have been identified for the
-publication of documents on the stream.  This section examines several of those
-motivations and provides additional information and observation about these
-documents.
+Several key motivations have been identified for the publication of documents on
+the stream.  This section examines several of those motivations and provides
+additional information and observation about several examples.
 
 
 ## April First RFCs {#april1}
@@ -117,7 +131,7 @@ documents.
 Of recent documents, 19 were published on the first day of April.  These are all
 of dubious technical value, but their intent is generally well understood.
 
-These 19 documents were not considered in any analysis.
+These 19 documents were not considered in any further analysis.
 
 
 ## Protocol Specifications
@@ -130,9 +144,15 @@ understanding the status of email deployment, some investigation is necessary in
 order to determine if {{?SIO-LABEL=RFC7444}} enjoys deployment such that
 documenting its semantics was a valuable service to the email community, whether
 it describes a proprietary mechanism, or whether the exercise of publication was
-aspirational effort and the protocol has since never been deployed.
+aspirational effort and the protocol has since never been deployed.  In this
+specific case, querying the authors reveals that the specification has a small
+amount of use.
 
-This section aims to identify several different
+This section aims to identify some of the important ways in which the stream is
+used for the publication of protocol specifications.  It's likely that there are
+multiple reasons that motivate the publication of any single document.
+Therefore, this section is not intended to be a taxonomy of reasons, but more an
+examination of reasons that might motivate publication.
 
 
 ### Vendor-Specific Protocols
@@ -140,7 +160,7 @@ This section aims to identify several different
 Documentation of vendor-specific or proprietary protocols is a common reason for
 seeking publication on the stream.  Some protocols are clearly identified as
 vendor-specific, to the extent of clearly identifying the vendor in the title
-(e.g., {{?RFC5517}}, {{?RFC6108}}, {{?RTMFP=RFC7425}}) or abstract
+(e.g., {{?RFC5517}}, {{?RFC6108}}, {{?RTMFP=RFC7016}}) or abstract
 ({{?RFC7745}}).
 
 The status of documents are far more difficult to determine.  It is therefore
@@ -162,12 +182,20 @@ these were not adopted by the IETF.
 In some cases, protocol extensions are published on the stream simply because
 the IETF did not have an active group of people working on the protocol.
 
-In some cases, documents are published on the stream even when the IETF has a
-working group active in the area, because the current charter of the group did
-not permit that type of work.  This is true of the HTTPBIS working group in 2010
-with RFC 5861 {{?RFC5861}} was published.  Similarly, while the 6MAN working
-group produced several standards track documents related to IPv6 flow labels,
-the publication of use cases in {{?RFC6294}} was done on the stream.
+Work that was specifically abandoned by the IETF might be published by the IETF.
+For instance, the DIME working group abandoned work the document that was
+eventually published as RFC 6159 {{?RFC6159}} after being unable to reach
+consensus about the use case.
+
+Some documents were published on the stream even while the IETF has a working
+group active in the area that might otherwise have adopted the work.  This might
+be because the current charter of the group did not permit that type of work at
+that time, which is the case for the HTTPBIS working group in 2010 when RFC 5861
+{{?RFC5861}} was published.
+
+Similarly, while the 6MAN working group produced several standards track
+documents related to IPv6 flow labels, the publication of use cases in
+{{?RFC6294}} was done on the stream.
 
 
 ### Predecessors to IETF Protocols
@@ -182,13 +210,16 @@ addresses a use case for which the IETF ultimately chose Port Control Protocol
 (PCP) {{?PCP=RFC6887}}.  NAT-PMP clearly identifies its successor and provides
 advice on transition.
 
+Note that the IETF sometimes publishes these documents on the IETF stream (for
+example, {{?SSLv3=RFC6101}}).
+
 
 ### Alternatives to IETF Protocols
 
 Protocol alternatives have a variety of reasons.  Some are modifications to
 existing mechanisms {{?RFC5569}}.  Some aim to address a deployment environment
-that might vary from the one that IETF protocols target, such as {{?RFC8272}},
-{{?RFC7681}}, and {{?ARABIC-DOMAINS=RFC5564}}.
+that might vary from the one that IETF protocols target, such as {{?RFC8272}}
+and {{?RFC7681}}.
 
 It's possible that proponents of solutions that were not selected for
 standardization by the IETF or other standards bodies could seek publication on
@@ -199,19 +230,50 @@ However, it is difficult to make an objective assessment of whether this is
 appropriate or whether publication of an RFC will result in discouraging
 investment in the standardized products.
 
-Not all examples are in direct competition with IETF protocols.
+
+### Protocols Abandoned by the IETF
+
+RFC 7069 {{?DECADE=RFC7069}} describes the DECADE protocol.  This document was
+the primary goal DECADE working group, which closed before the publication of
+this document.  That working group produced two Information RFCs surveying the
+problem domain {{?RFC6392}} and providing a problem statement {{?RFC6646}}, but
+did not complete their work.  In closing the working group, it was noted that
+the IESG had rejected some of the work of the working group {{DECADE-CLOSE}},
+but without further analysis of RFC 7069 it is not clear whether those concerns
+were addressed before publication.
+
+{{?RFC5690}} describes work that might be undertaken by the TCPM working group
+in the IETF, or possibly the CCRG.
+
+Some number of the abandoned protocols that are published on the stream bear an
+IESG Note indicating this status.  Of recent publications on the stream, the
+IESG requested the addition of a note to 39 documents. ({{?RFC5000}} also bears
+a note, but this was omitted from this tally).
+
+Many earlier documents include an obviously pro-forma disclaimer in the IESG
+Note.  The last pro-format IESG Note appears in RFC 5707 {{?RFC5707}}.  In 9
+cases this pro-forma note explicitly indicates that the work was abandoned by
+the IETF.  Two recent documents in the stream were published from a draft with a
+"draft-ietf-" prefix.
 
 
-### Protocols Explicitly Rejected by the IETF
+### Protocols Rejected by the IETF
 
-One document, {{?TCP-HOST-ID=RFC7974}}, has been published on the stream against
-the express wishes of the IESG.  This represents a case where the stream is used
-to publish documents in the series that don't just contradict other documents,
-but also established policy.  The implications of the contention that this
-causes are explored in more detail in {{contention}}.
+Only 11 of the 127 documents published after RFC 5707 bear an IESG Note.
+
+Other than the pro-forma disclaimer, the reasons for including an IESG Note
+generally appear to be based on lack of consensus in the IETF regarding the
+specific protocol specification.  This can be a lack of consensus about use
+cases, as was the case with {{?RFC6159}}.  This might be as a result of
+architectural concerns, such as with {{?RFC4938}}, or even concrete technical
+issues, such as with {{?RFC7943}}.
+
+Of particular note here is RFC 7974 {{?TCP-HOST-ID=RFC7974}}, which was
+published after the IESG identified a conflict and requested that the document
+not be published by the ISE {{TCP-HOST-ID-CONFLICT}}.
 
 
-## Cryptographic Primitives
+## Cryptographic Primitives {#crypto}
 
 Publication of cryptographic primitives - such as crytographic algorithms and
 protocols - is a major use of the stream.  Based on a rough count, 17 recent
@@ -231,11 +293,21 @@ signify a particular standard of review.  In comparison, the CFRG conducts
 extensive review of documents that are also published as "Informational" RFCs.
 
 
-## Exposition and Advice to Implementers
+## Supplementary Information Related to IETF or IRTF Work
+
+IETF working groups often produce drafts that are useful in their primary tasks.
+Documents that explore problem spaces, perform requirements analysis, or list
+use cases are commonly produced and then discarded in the process of building
+standards track documents.
+
+Several of these documents were published on the stream.  For instance, this is
+true of the aforementioned {{?RFC6294}}.  The same is true for RFC 6983
+{{?CDNI-HAS=RFC6983}}, which the CDNI working group used as input to the CDNI
+framework {{?CDNI-FRAMEWORK=RFC7336}}.
 
 Some documents don't aim to define new protocols, but instead provide
 implementers of protocols more information or to provide valid alternative
-implementation strategies.
+implementation strategies.  There are only a few of these documents.
 
 For example, {{?RFC7129}} provides additional background and context regarding
 the use of NSEC and NSEC3 in DNSSEC.  {{?RFC7093}} describes alternative
@@ -248,8 +320,10 @@ implementation techniques for meeting the requirements of {{?PKIX=RFC5280}}.
 
 Several documents published on the stream contain information of a general
 nature.  This information might not be readily available elsewhere, or it might
-be tailored specifically to the usual audience of the stream (such as the IETF
-or IRTF).
+be tailored specifically to the usual audience of the stream.  This audience is
+presumably participants of the IETF and IRTF based on the content of these
+documents.  It is hard to identify an audience, because there are very few
+documents of this type in those recently published.
 
 These documents include an extensive security glossary {{?SEC-GLOSS=RFC4949}},
 reports on events of potential interest {{?NAME-COLLISIONS=RFC8023}},
@@ -268,6 +342,11 @@ publication requirements for IANA registries.
 Of recent documents published on the stream, 76 of the 181 documents include
 IANA considerations sections that demand specific actions of IANA.
 
+This count might be inflated, as some documents contain IANA considerations that
+appear to make a request of IANA, but do not have concrete actions.  For
+example, {{?RFC5690}} contains a list of codepoints that are specifically set to
+"TBD".
+
 Note:
 
 : Several RFCs published on April 1 request various actions, such as that in
@@ -285,121 +364,207 @@ publish an RFC.
 A great many of the reasons for publication on the stream (see Section 2 of
 {{!IS}}) are either infrequently used or have never been used.
 
-   o  Discussion of Internet-related technologies that are not part of
-      the IETF agenda.
+* There is no apparent discussion of Internet-related technologies that are not
+  part of the IETF agenda.
 
-   o  Introduction of important new ideas as a bridge publication venue
-      between academia and IETF engineering.
+* Though {{?RFC6417}} specifically addresses this point, there is little
+  evidence that the stream is being used to published important new ideas as a
+  bridge publication venue between academia and IETF engineering.  It's possible
+  that the IRTF stream is fulfilling this need.
 
-   o  Informational discussions of technologies, options, or experience
-      with protocols.
+* Though {{!IS}} makes a particular point of noting that critiques and
+  discussions of alternatives to IETF Standards-Track protocols is important, no
+  such critiques could be found in recent publications.  That is, unless you
+  allow for the oblique form of critique that a full, alternative protocol
+  specification represents.
 
-   o  Informational publication of vendor-specific protocols.
+* No editorials, eulogies, or policy statements made by the IANA were found in
+  the recent documents of the stream.  One statement of RFC Editor policy
+  appears in RFC 5744 {{?RFC5744}}, which appears to apply exclusively to the
+  stream.
 
-   o  Critiques and discussions of alternatives to IETF Standards-Track
-      protocols.  The potential for such critiques provides an important
-      check on the IETF's standards processes and should be seen in that
-      light.
-
-   o  Documents considered by IETF Working Groups but not standardized.
-      While many documents of this type are still published in the IETF
-      document stream (see [RFC4844], Section 5.1.1) as Informational or
-      Experimental RFCs, the Independent Submission path has
-      traditionally been open to them as well.  However, because of
-      their intimate connection to the IETF Standards Process and WG
-      activities and the consequent sensitivity to exact statements of
-      relationships and to timing, there is reason to believe that such
-      documents should normally be published via the IETF document
-      stream.  In any event, these documents are published for the
-      historical record.
-
-   o  Editorials (the best example is IEN 137 [IEN137], not an RFC).
-
-   o  Eulogies (RFC 2441 [RFC2441]).
-
-   o  Technical contributions (e.g., RFC 1810 [RFC1810]).
-
-   o  Historically, RFC Editor and, at least prior to the handoff
-      between the Informational Sciences Institute (ISI) and the
-      Internet Corporation for Assigned Names and Numbers (ICANN) and
-      the June 2000 MOU [RFC2860], Internet Assigned Numbers Authority
-      (IANA) Policy Statements (e.g., RFC 2223 [RFC2223] and RFC 1591
-      [RFC1591]).
+This assessment is based on a review of recent documents, which was not entirely
+comprehensive, so there could be exceptions.
 
 
+# Problems and Recommendations
+
+The largest category from which publication on the stream is sought is for
+protocol specification.  Though it is hard to definitively point to specific
+motivations for each document, trends are recognizable.
+
+The biggest question here is whether it is appropriate to continue to publish
+protocol specifications on the stream.
 
 
-# Problems
+## Protocol Specifications {#contention}
+
+It is very difficult to assess the quality of protocol specifications that are
+published on the stream.
+
+This section aims to "teach the controversy" by summarizing the different
+viewpoints that are held as to the value of permitting the publication of
+protocol specifications on the stream.
 
 
-## Contention with Other Streams {#contention}
+### For Publishing Protocol Specifications
 
-Documents published on the Independent Submissions Stream are subject to
-conflict review by the IESG (see Section 5 of {{?IS}}).  This review has
-identified documents as being in conflict with IETF work.  There are two
-opposing perspectives on this issue.
+Maintaining a record of the dialog on important subjects is important.
+Documenting views that challenge orthodoxy provides a valuable service that the
+Independent Submissions Editor can provide.
 
-In one view, publishing a document in the RFC series that directly conflicts
-with other documents in the series is unacceptable.  The credibility accrued to
-the series derives directly from the quality of the documents in the series and
-that credibility is largely a product of the rigorous process applied by the
-IETF (and to a lesser extent, the IRTF and IAB).  The credibility of the series
-as a whole is undermined when technical specifications are published outside of
-these processes.
+Documenting - and archiving - contrary views with the high editorial standards
+that the RFC editor provides is an important service to the community.
+Documenting an alternative with an honest representation of its status and
+pointers to the alternative that has IETF consensus, as is done with
+{{?NAT-PMP}} ensures that there little chance for confusion.
 
-The position states that the monicker "RFC" is the primary characteristic that
-an audience pays attention to.  That is, the distinction between Standards Track
-RFCs published by the IETF and documents on others streams is not always well
-understood by the audience of the series as a while.
+There are examples of protocol specifications that were published on the stream
+that have since enjoyed wide deployment, even adoption and later revision by the
+IETF.  \[\[Editor's Note: This claim has been made in the context of older
+documents.  However, from documents published after {{?IS}}, the only document
+that has been moved to the IETF stream for a subsequent revision is
+{{?RFC5544}}, which was replaced by {{?RFC5955}}.  It's not clear that this
+media type actually enjoys wide deployment.]]
 
-The position might also apply less to documents that make an honest
-representation of their contrary nature.  For instance, it seems unlikely that
-descriptions of vendor-proprietary protocols, which are usually clearly
-labelled, would cause any such confusion.
-
-The contrary view states that maintaining a record of the dialog on important
-subjects is important.  Documenting views that challenge orthodoxy provides a
-valuable service.  that the Independent Submissions Editor can provide.
-Ensuring that contrary views are documented
+The addition of IESG Notes to published documents serves as ample notice to
+readers about the status where the publication is of a dissenting voice.
 
 
-# Recommendations
+### Against Publishing Protocol Specifications
 
-## Ease IANA Registrations
+Publishing a document in the RFC series that directly conflicts with other
+documents in the series is unacceptable.  The credibility accrued to the series
+derives directly from the quality of the documents in the series and that
+credibility is largely a product of the rigorous consensus process applied by
+the IETF.
+
+The credibility of the series as a whole is undermined when protocol
+specifications are published outside of these processes.
+
+This is far less of a concern if documents honestly represent their contrary
+nature.  For instance, it seems unlikely that descriptions of vendor-proprietary
+protocols, which are usually clearly labelled, would cause any such confusion.
+The level of technical maturity of ambiguously-labelled protocol specifications
+is very difficult to ascertain.
+
+The effect on the architecture of the Internet of deploying the protocol
+mechanism is hard to determine and no process exists to ensure that problems are
+identified in protocols that are published on the stream.  For an IESG Note to
+be an effective defense against deployment of harmful protocols, the IESG
+conflict review process would need to be more comprehensive than the process in
+{{?CONFLICT-REVIEW=RFC5742}} requires.
+
+For the IRTF, the same logic applies to cryptographic primitives {{crypto}}
+published on the stream. \[\[Editor's Note: it's not clear whether there is any
+other IRTF work that has been similarly affected.]]  There is no history of
+protocol specification on the IAB stream.
+
+If the value attributed to the processes applied by the IETF, IRTF, or IAB
+streams do not apply, the only concrete value derived from publication are
+secondary: consistent copy-editing, format, and archival.  Indeed, many of these
+qualities could be ascribed to internet-drafts.  Even archival, where drafts are
+only deleted in extreme circumstances.
+
+There are many alternative venues for publication available to authors.  For
+example, protocols are routinely published on web sites, blogs, in public source
+code repositories, or as academic publications.
+
+Publication of an RFC ascribes a certain perceived status to both the material
+and author.  And it is this status that motivates authors to seek publication on
+the stream.  This does not serve to enrich the series.
+
+
+## Lack of Maintenance for IETF Protocols
+
+Publishing protocol extensions for IETF protocols on the stream might indicate
+that the IETF is not providing an adequate venue for protocol maintenance.  This
+is seen for protocols with more narrow or specialized usage.  There are a
+significant number of documents published on the stream that were previously
+discussed in active IETF working groups.
+
+The ISE queue as of 2018-01-11 shows two PKCS#8 documents.  Work that would
+ordinarily fit into the domain of the SEC area in the IETF.
+
+Whatever the reason for the IETF not engaging with work, the use of the stream
+for protocol maintenance is not appropriate.  Protocol maintenance is a critical
+function and the IETF is responsible for the maintenance of the protocols that
+it publishes.  Failing to publish important updates, or failing to make hard
+decisions about the suitability of marginal updates, does the community a
+disservice.
+
+Often this is unglamorous work, but it is important that the IETF recognize that
+it has a responsibility to maintain its protocols.
+
+
+## Excessively Strict Registry Policies
+
+Recent best practices on setting policies for IANA registries encourage more
+open policies.  In particular, RFC 8126 recommends that "\[working groups] should
+select the least strict policy that suits a registry's needs" {{?IANA-CONS}}.
+Recently, a number of registries have been updated to have more open policies.
+
+For instance, additions to the link relations registry establied in
+{{?LINKv1=RFC5988}} never required the publication of an RFC.  However, several
+such documents were published in a short timespan on the stream: {{?RFC6892}},
+{{?RFC6903}}, {{?RFC6906}}, and {{?RFC7089}}.  RFC 8288 {{?LINK=RFC8288}}
+revised the process of registration to make this unnecessary and the process
+easier.
+
+
+### The "RFC Required" Registry Policy
 
 Though used less frequently than alternatives, the "RFC Required" policy on IANA
-registries {{?IANA-CONS}} can be cause to seek publication on the
-stream.  This policy is often used inappropriately as a proxy for another
-property.
+registries {{?IANA-CONS}} is a particular problem.  It doesn't establish any
+requirements other than publication as RFC, so the natural path for acquiring a
+code point is to seek publication on the stream that has the easiest publication
+criteria.
 
-For example, if the intent is to require community consensus then "IETF
-Consensus", "Standards Action", or "IESG Approval" is more appropriate.
-Similarly, if the intent is to insist on a particular standard of documentation
-for a specification, then the "Specification Required" policy with additional
-guidance to a designated expert can acheive the same end.
+The "RFC Required" policy is often used inappropriately as a proxy for another
+property.  For example, if the intent is to require community consensus then
+"IETF Consensus", "Standards Action", or "IESG Approval" is clearly more
+appropriate.  Similarly, if the intent is to insist on a particular standard of
+documentation for a specification, then the "Specification Required" policy with
+additional guidance to a designated expert can achieve the same end.
 
 Deprecating or eliminating the "RFC Required" policy would remove pressure to
 publish documents on the Independent Submissions Stream purely to meet the
 requirements for obtaining protocol codepoints.
 
-Recent best practices on setting policies for IANA registries encourage more
-open policies.  In particular, RFC 8126 recommends that "[working groups] should
-select the least strict policy that suits a registry's needs" {{?IANA-CONS}}.
-Recently, a number of registries have been updated to have more open policies.
 
-For instance, additions to the link relations registry establied in
-{{?LINKv1=RFC5988}} never required the publication of an RFC.  However, three
-such documents were published in a short timespan on the stream: {{?RFC6892}},
-{{?RFC6903}}, and {{?RFC6906}}.  RFC 8288 {{?LINK=RFC8288}} revised the process
-of registration to make this unnecessary and the process easier.
+# Recommendations
 
+This document proposes significantly reducing the role of the independent
+stream.  The primary reduction being that protocol specifications will no longer
+be published on the stream.  The recommended changes are:
 
-## Clearer Rules about Stream Choice
+* The ISE may continue to publish April first RFCs at their discretion.
 
-The publication of a document that describes a protocol for the information of the community is one.  The Independent Submissions Stream has been used on several occasions to document proprietary protocols or protocol extensions.
+* The ISE will no longer publish Protocol Specifications.  Other venues will be
+  recommended.  For work related to protocols that were developed or work on in
+  the IETF, the IETF and IESG will be responsible to picking up any slack.  This
+  means some increased load on the IETF, but this would be marginal given
+  current publication volumes.  Some documents, such as vendor-specific
+  protocols, will no longer be published as RFC, but instead be published via
+  other means.
 
+* The ISE will no longer publish cryptographic primitives.
 
-## Clearer Requirements about Intent
+* Supplementary information for IETF protocols can be published by the IETF.
+
+* General interest documents can seek publication elsewhere.
+
+* Information of academic origin that might be of interest to the IETF can be
+  published elsewhere.  This might include the IRTF stream, which already
+  includes many documents of this nature.
+
+* The ISE will retain the ability to publish critiques of the IETF, IAB, and
+  IRTF.
+
+* The ISE can continue to publish policy documents related to the stream.
+
+A separate document that obsoletes RFC 4846 {{!IS}} will be produced that enacts
+these changes.
 
 
 # Security and Privacy Considerations
