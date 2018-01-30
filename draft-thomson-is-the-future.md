@@ -2,8 +2,7 @@
 title: "Independent Submissions Into The Future"
 abbrev: Independent Submissions Future
 docname: draft-thomson-is-the-future-latest
-date: {DATE}
-category: std
+category: info
 ipr: trust200902
 area: IAB
 stand_alone: yes
