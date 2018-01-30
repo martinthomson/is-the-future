@@ -268,8 +268,9 @@ architectural concerns, such as with {{?RFC4938}}, or even concrete technical
 issues, such as with {{?RFC7943}}.
 
 Of particular note here is RFC 7974 {{?TCP-HOST-ID=RFC7974}}, which was
-published after the IESG identified a conflict and requested that the document
-not be published by the ISE {{TCP-HOST-ID-CONFLICT}}.
+published after the IESG identified a conflict under the terms in
+{{?CONFLICT-REVIEW}} and requested that the document not be published by the ISE
+{{TCP-HOST-ID-CONFLICT}}.
 
 
 ## Cryptographic Primitives {#crypto}
@@ -319,8 +320,8 @@ implementation techniques for meeting the requirements of {{?PKIX=RFC5280}}.
 
 Several documents published on the stream contain information of a general
 nature.  This information might not be readily available elsewhere, or it might
-be tailored specifically to the usual audience of the stream.  This audience is
-presumably participants of the IETF and IRTF based on the content of these
+be tailored specifically to the usual audience of the RFC series.  This audience
+is presumably participants of the IETF and IRTF based on the content of these
 documents.  It is hard to identify an audience, because there are very few
 documents of this type in those recently published.
 
@@ -330,7 +331,7 @@ reports on events of potential interest {{?NAME-COLLISIONS=RFC8023}},
 
 The stream also includes documents related to the process of contributing to the
 IETF {{?RFC6417}}.  Some pertain directly to the mechanical process of producing
-RFCs {{?PANDOC2RFC=RFC7328}}, {{?MS-WORD=RFC5385}}.
+RFCs {{?PANDOC=RFC7328}}, {{?MS-WORD=RFC5385}}.
 
 
 ## IANA Registrations
@@ -355,7 +356,7 @@ Note:
 This suggests that a high proportion of publications on the stream exist to
 fulfill requirements for access to protocol codepoints.  IANA policies such as
 "RFC Required" {{?IANA-CONS=RFC8126}} would appear to provide undue incentive to
-publish an RFC.
+publish an RFC (see {{rfc-required}}).
 
 
 ## Unused Motivations for Publication
@@ -373,9 +374,9 @@ A great many of the reasons for publication on the stream (see Section 2 of
 
 * Though {{!IS}} makes a particular point of noting that critiques and
   discussions of alternatives to IETF Standards-Track protocols is important, no
-  such critiques could be found in recent publications.  That is, unless you
-  allow for the oblique form of critique that a full, alternative protocol
-  specification represents.
+  such critiques could be found in recent publications.  That is, unless an
+  allowance is made for the oblique form of critique inherent in a full,
+  alternative protocol specification.
 
 * No editorials, eulogies, or policy statements made by the IANA were found in
   the recent documents of the stream.  One statement of RFC Editor policy
@@ -386,14 +387,12 @@ This assessment is based on a review of recent documents, which was not entirely
 comprehensive, so there could be exceptions.
 
 
-# Problems and Recommendations
+# Independent Submission Stream Issues Problems
 
 The largest category from which publication on the stream is sought is for
 protocol specification.  Though it is hard to definitively point to specific
-motivations for each document, trends are recognizable.
-
-The biggest question here is whether it is appropriate to continue to publish
-protocol specifications on the stream.
+motivations for each document, some trends are recognizable.  This section
+explores obvious trends.
 
 
 ## Protocol Specifications {#contention}
@@ -511,7 +510,7 @@ revised the process of registration to make this unnecessary and the process
 easier.
 
 
-### The "RFC Required" Registry Policy
+### The "RFC Required" Registry Policy {#rfc-required}
 
 Though used less frequently than alternatives, the "RFC Required" policy on IANA
 registries {{?IANA-CONS}} is a particular problem.  It doesn't establish any
@@ -531,39 +530,14 @@ publish documents on the Independent Submissions Stream purely to meet the
 requirements for obtaining protocol codepoints.
 
 
-# Recommendations
+## ISE Discretion and Oversight
 
-This document proposes significantly reducing the role of the independent
-stream.  The primary reduction being that protocol specifications will no longer
-be published on the stream.  The recommended changes are:
-
-* The ISE may continue to publish April first RFCs at their discretion.
-
-* The ISE will no longer publish Protocol Specifications.  Other venues will be
-  recommended.  For work related to protocols that were developed or work on in
-  the IETF, the IETF and IESG will be responsible to picking up any slack.  This
-  means some increased load on the IETF, but this would be marginal given
-  current publication volumes.  Some documents, such as vendor-specific
-  protocols, will no longer be published as RFC, but instead be published via
-  other means.
-
-* The ISE will no longer publish cryptographic primitives.
-
-* Supplementary information for IETF protocols can be published by the IETF.
-
-* General interest documents can seek publication elsewhere.
-
-* Information of academic origin that might be of interest to the IETF can be
-  published elsewhere.  This might include the IRTF stream, which already
-  includes many documents of this nature.
-
-* The ISE will retain the ability to publish critiques of the IETF, IAB, and
-  IRTF.
-
-* The ISE can continue to publish policy documents related to the stream.
-
-A separate document that obsoletes RFC 4846 {{!IS}} will be produced that enacts
-these changes.
+The ISE retains significant editorial discretion over what is published on the
+stream.  As a single person, the ISE might exhibit bias.  In part, the Editorial
+Review Board serves to inform the ISE of the breadth of views that exist
+regarding particular technologies.  The ultimate interpretation of that
+information is the responsibility of the ISE.  This is an enormous
+responsibility, which is exercised with negligible oversight measures.
 
 
 # Security and Privacy Considerations
