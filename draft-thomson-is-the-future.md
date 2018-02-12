@@ -166,9 +166,8 @@ The status of documents are far more difficult to determine.  It is therefore
 impossible without significant effort to determine how many protocols published
 on the stream are in practice vendor-specific.
 
-For example, {{?LIVE-STREAMING=RFC8126}}, {{?VP8=RFC6386}}, and
-{{?WIN-IMAGE=RFC7903}} all describe proprietary protocols that are nonetheless
-implemented widely.
+{{?LIVE-STREAMING=RFC8126}}, {{?VP8=RFC6386}}, and {{?WIN-IMAGE=RFC7903}} all
+describe proprietary protocols that are nonetheless implemented widely.
 
 
 ### Extensions to IETF Protocols
@@ -242,7 +241,7 @@ but without further analysis of RFC 7069 it is not clear whether those concerns
 were addressed before publication.
 
 {{?RFC5690}} describes work that might be undertaken by the TCPM working group
-in the IETF, or possibly the CCRG.
+in the IETF, or possibly the ICCRG.
 
 Some number of the abandoned protocols that are published on the stream bear an
 IESG Note indicating this status.  Of recent publications on the stream, the
@@ -441,16 +440,25 @@ The credibility of the series as a whole is undermined when protocol
 specifications are published outside of these processes.
 
 This is far less of a concern if documents honestly represent their contrary
-nature.  For instance, it seems unlikely that descriptions of vendor-proprietary
-protocols, which are usually clearly labelled, would cause any such confusion.
-The level of technical maturity of ambiguously-labelled protocol specifications
-is very difficult to ascertain.
+nature. For instance, it seems unlikely that descriptions of vendor-proprietary
+protocols, if clearly labelled as such, would cause any such confusion. In
+practice however, the level of technical maturity of ambiguously-labelled
+protocol specifications is very difficult to ascertain.
 
-The effect on the architecture of the Internet of deploying the protocol
-mechanism is hard to determine and no process exists to ensure that problems are
-identified in protocols that are published on the stream.  For an IESG Note to
-be an effective defense against deployment of harmful protocols, the IESG
-conflict review process would need to be more comprehensive than the process in
+Clearly conveying the status of a specification is inconsistent, especially for
+documents published on the stream. For example the following documents all
+describe extensions to the SIP protocol that do not have IETF consensus:
+{{?RFC5806}}, {{?RFC6044}}, {{?RFC6143}}, and {{?RFC6189}}. The first two were
+published on the stream, the latter two on the IETF stream as informational.
+While these all contain text that ensure that the status of the work can be
+known - the first contains an IESG note - these are all confusingly similar to
+documents published on the standards track by the IETF.
+
+The effect on the architecture of the Internet of deploying protocol mechanisms
+is hard to determine. No process exists to ensure that problems are identified
+in protocols that are published on the stream. For an IESG Note to be an
+effective defense against deployment of harmful protocols, the IESG conflict
+review process would need to be more comprehensive than the process in
 {{?CONFLICT-REVIEW=RFC5742}} requires.
 
 For the IRTF, the same logic applies to cryptographic primitives {{crypto}}
