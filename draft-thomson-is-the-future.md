@@ -162,9 +162,10 @@ vendor-specific, to the extent of clearly identifying the vendor in the title
 (e.g., {{?RFC5517}}, {{?RFC6108}}, {{?RTMFP=RFC7016}}) or abstract
 ({{?RFC7745}}).
 
-The status of documents are far more difficult to determine.  It is therefore
-impossible without significant effort to determine how many protocols published
-on the stream are in practice vendor-specific.
+The status of protocols can be difficult to determine. Many documents are coy
+about making their proprietary nature obvious. It is therefore impossible
+without significant effort to determine how many protocols published on the
+stream are in practice vendor-specific.
 
 {{?LIVE-STREAMING=RFC8126}}, {{?VP8=RFC6386}}, and {{?WIN-IMAGE=RFC7903}} all
 describe proprietary protocols that are nonetheless implemented widely.
@@ -386,12 +387,13 @@ This assessment is based on a review of recent documents, which was not entirely
 comprehensive, so there could be exceptions.
 
 
-# Independent Submission Stream Issues Problems
+# Independent Submission Stream Problems
 
 The largest category from which publication on the stream is sought is for
-protocol specification.  Though it is hard to definitively point to specific
-motivations for each document, some trends are recognizable.  This section
-explores obvious trends.
+protocol specification. Though it is hard to definitively point to specific
+motivations for each document, some trends are recognizable. This section
+explores obvious trends and potential problems with the established pattern of
+publication on the stream.
 
 
 ## Protocol Specifications {#contention}
@@ -450,16 +452,17 @@ documents published on the stream. For example the following documents all
 describe extensions to the SIP protocol that do not have IETF consensus:
 {{?RFC5806}}, {{?RFC6044}}, {{?RFC6143}}, and {{?RFC6189}}. The first two were
 published on the stream, the latter two on the IETF stream as informational.
-While these all contain text that ensure that the status of the work can be
-known - the first contains an IESG note - these are all confusingly similar to
-documents published on the standards track by the IETF.
+While all four contain indicators that suggest the true status of the work -
+the first contains an IESG note and Historic status - these documents are all
+confusingly similar to documents published on the standards track by the IETF.
 
 The effect on the architecture of the Internet of deploying protocol mechanisms
 is hard to determine. No process exists to ensure that problems are identified
-in protocols that are published on the stream. For an IESG Note to be an
-effective defense against deployment of harmful protocols, the IESG conflict
-review process would need to be more comprehensive than the process in
-{{?CONFLICT-REVIEW=RFC5742}} requires.
+in protocols prior to their publication on the stream. Though IESG review might
+reveal these issues, for an IESG Note to be an effective defense against
+deployment of harmful protocols, the IESG conflict review process would need to
+be more comprehensive than the process in {{?CONFLICT-REVIEW=RFC5742}}
+requires.
 
 For the IRTF, the same logic applies to cryptographic primitives {{crypto}}
 published on the stream. \[\[Editor's Note: it's not clear whether there is any
