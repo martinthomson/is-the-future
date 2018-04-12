@@ -1,5 +1,4 @@
-
-RFCs and Independent Submissions: Examination and Revision
+RFCs and Independent Submissions: Examination and Revision (RISER)
 
 RFC 4846 defines the Independent Submissions Stream as a document stream within
 the RFC series. However, that stream follows very different processes to other
