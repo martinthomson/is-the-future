@@ -1,36 +1,38 @@
 RFCs and Independent Submissions: Examination and Revision (RISER)
 
+The RISER working group is chartered to investigate and document changes that
+enable greater independence for the operation of the Independent Submissions
+Editor. Minimally, this will involve creating a new label, other than "RFC,"
+for the documents produced in the future on the Independent Submissions Stream,
+and removing the conflict review process for those documents.
+
 RFC 4846 defines the Independent Submissions Stream as a document stream within
 the RFC series. However, that stream follows very different processes to other
-streams. In particular, though the independence of the stream is valued as a
-way to ensure that dissenting voices can find a platform that will reach the
-greater IETF community, the publication of dissenting opinions on the stream
-creates tension with other streams.
+streams. In particular, though the independence of the stream is valued as a way
+to ensure that dissenting voices can find a platform that will reach the greater
+IETF community, the publication of dissenting opinions on the stream creates
+tension with other streams.
 
 The tension between independence and this close relationship with other streams
 in the RFC series is rooted in confusion about the status of documents. The RFC
-series is dominated by the product of the IETF stream and the properties of
-that stream - primarily that they are the consensus of the IETF - are often
-assumed for all documents bearing the "RFC" label.
+series is dominated by the product of the IETF stream.  The properties of that
+stream - that they are primarily the consensus of the IETF, and that they were
+developed within the IETF - are widely assumed for all documents bearing the
+"RFC" label.
 
 The goal of the Independent Submissions Stream is to provide a venue for
-publication of documents that seek the same audience as the RFC series. This
-does not require that those documents bear the "RFC" label. Designating a new
-label removes any potential for confusion about status.
-
-With a different label, the potential for actual conflict with other streams is
-greatly reduced. Consequently, the need for IESG conflict review as defined in
-RFC 5742 becomes much less. Removing conflict review reduces IESG workload and
-gives the Independent Submissions Editor greater discretion.
+publication of documents that seek the same audience as the rest of the RFC
+series. This does not require that those documents bear the "RFC"
+label. Designating a new label will remove any potential for confusion about
+status.
 
 The RISER working group will concentrate on a revision or updates to RFC 4846
-and RFC 5742. Revision to RFC 4844 and RFC 6548 might also be necessary. The
-group will investigate and document changes to the process that enable greater
-independence for the operation of the Independent Submissions Editor.
-Minimally, this will involve creating a new name for the documents produced on
-the Independent Submissions Stream, and removing the conflict review for those
-documents. The group will not change the ISE selection and oversight processes.
+and RFC 5742. Revisions or updates for RFC 4844 and RFC 6548 might also be
+necessary. The working group will not change the ISE selection and oversight
+processes. Nor will it make changes to the RFC label on any documents previously
+published in the Independent Stream.
+
 
 Milestones
 
-Oct 2018 - Document(s) updating or revising RFCs 4846 and 5742 available for community review
+Oct 2018 - Document(s) updating or revising RFCs 4846 and 5742
