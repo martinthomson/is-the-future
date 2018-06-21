@@ -255,6 +255,20 @@ That leads to the conclusion that better labelling, while possibly helpful,
 would not be sufficiently effective in correcting misconceptions.
 
 
+# No Change to Existing Documents
+
+There is no point in revising existing documents.  These documents were
+published with an expectation of immutability.  Thus, any attempt to relabel
+these would be limited to changing document metadata.  That has already proven
+to be ineffectual.
+
+Any misconception that might exist in relation to existing documents is
+therefore irreparable.  There is no rational means of retracting the issuance of
+RFC numbers for the hundreds of documents that might need to be assigned new
+labels retrospectively.  The simplest thing to do is to not worry about this
+problem.
+
+
 # How To Measure Success
 
 The use of new labels has been proposed as an experiment.  An experiment ends
@@ -327,6 +341,10 @@ year, the rate of progressing to Internet Standard is extremely low.
 
 Of course, some documents on the STD subseries are of questionable value on the
 modern Internet and some might be better with a Historic demarcation.
+
+This document intentionally does not aim to address this with a more
+comprehensive set of changes.  Making multiple changes can compromise an
+experiment.
 
 
 # Acknowledgments
