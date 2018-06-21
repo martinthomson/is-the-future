@@ -4,8 +4,8 @@
 
 Network Working Group                                         M. Thomson
 Internet-Draft                                                   Mozilla
-Intended status: Informational                         February 14, 2018
-Expires: August 18, 2018
+Intended status: Informational                             June 21, 2018
+Expires: December 23, 2018
 
 
                 Independent Submissions Into The Future
@@ -44,7 +44,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on August 18, 2018.
+   This Internet-Draft will expire on December 23, 2018.
 
 
 
@@ -53,9 +53,9 @@ Status of This Memo
 
 
 
-Thomson                  Expires August 18, 2018                [Page 1]
+Thomson                 Expires December 23, 2018               [Page 1]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
 Copyright Notice
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Thomson                  Expires August 18, 2018                [Page 2]
+Thomson                 Expires December 23, 2018               [Page 2]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
 1.  Introduction
@@ -165,9 +165,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018                [Page 3]
+Thomson                 Expires December 23, 2018               [Page 3]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    Note:  [IS] lists numerous documents that are apparently published on
@@ -221,9 +221,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018                [Page 4]
+Thomson                 Expires December 23, 2018               [Page 4]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    of any single document.  Therefore, this section is not intended to
@@ -277,9 +277,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018                [Page 5]
+Thomson                 Expires December 23, 2018               [Page 5]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
 3.2.3.  Predecessors to IETF Protocols
@@ -333,9 +333,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018                [Page 6]
+Thomson                 Expires December 23, 2018               [Page 6]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    Some number of the abandoned protocols that are published on the
@@ -389,9 +389,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018                [Page 7]
+Thomson                 Expires December 23, 2018               [Page 7]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    of review.  In comparison, the CFRG conducts extensive review of
@@ -445,9 +445,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018                [Page 8]
+Thomson                 Expires December 23, 2018               [Page 8]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    Of recent documents published on the stream, 76 of the 181 documents
@@ -501,9 +501,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018                [Page 9]
+Thomson                 Expires December 23, 2018               [Page 9]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
 4.  Independent Submission Stream Problems
@@ -557,9 +557,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018               [Page 10]
+Thomson                 Expires December 23, 2018              [Page 10]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    documents in the series and that credibility is largely a product of
@@ -613,9 +613,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018               [Page 11]
+Thomson                 Expires December 23, 2018              [Page 11]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    sites, blogs, in public source code repositories, or as academic
@@ -669,9 +669,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018               [Page 12]
+Thomson                 Expires December 23, 2018              [Page 12]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
 4.3.1.  The "RFC Required" Registry Policy
@@ -725,9 +725,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018               [Page 13]
+Thomson                 Expires December 23, 2018              [Page 13]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    [IRTF-STREAM]
@@ -781,9 +781,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018               [Page 14]
+Thomson                 Expires December 23, 2018              [Page 14]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    [DECADE-CLOSE]
@@ -837,9 +837,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018               [Page 15]
+Thomson                 Expires December 23, 2018              [Page 15]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    [NAME-COLLISIONS]
@@ -893,9 +893,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018               [Page 16]
+Thomson                 Expires December 23, 2018              [Page 16]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    [RFC5517]  HomChaudhuri, S. and M. Foschiano, "Cisco Systems' Private
@@ -949,9 +949,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018               [Page 17]
+Thomson                 Expires December 23, 2018              [Page 17]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    [RFC6108]  Chung, C., Kasyanov, A., Livingood, J., Mody, N., and B.
@@ -1005,9 +1005,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018               [Page 18]
+Thomson                 Expires December 23, 2018              [Page 18]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    [RFC6903]  Snell, J., "Additional Link Relation Types", RFC 6903,
@@ -1061,9 +1061,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018               [Page 19]
+Thomson                 Expires December 23, 2018              [Page 19]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
    [SEC-GLOSS]
@@ -1117,9 +1117,9 @@ Internet-Draft       Independent Submissions Future        February 2018
 
 
 
-Thomson                  Expires August 18, 2018               [Page 20]
+Thomson                 Expires December 23, 2018              [Page 20]
 
-Internet-Draft       Independent Submissions Future        February 2018
+Internet-Draft       Independent Submissions Future            June 2018
 
 
 7.3.  URIs
@@ -1173,4 +1173,4 @@ Author's Address
 
 
 
-Thomson                  Expires August 18, 2018               [Page 21]
+Thomson                 Expires December 23, 2018              [Page 21]
