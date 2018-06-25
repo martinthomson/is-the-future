@@ -4,8 +4,8 @@
 
 Network Working Group                                         M. Thomson
 Internet-Draft                                                   Mozilla
-Intended status: Experimental                              June 21, 2018
-Expires: December 23, 2018
+Intended status: Experimental                              June 25, 2018
+Expires: December 27, 2018
 
 
                             It's Just a Name
@@ -33,7 +33,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on December 23, 2018.
+   This Internet-Draft will expire on December 27, 2018.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Thomson                 Expires December 23, 2018               [Page 1]
+Thomson                 Expires December 27, 2018               [Page 1]
 
 Internet-Draft              It's Just a Name                   June 2018
 
@@ -109,7 +109,7 @@ Internet-Draft              It's Just a Name                   June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 2]
+Thomson                 Expires December 27, 2018               [Page 2]
 
 Internet-Draft              It's Just a Name                   June 2018
 
@@ -165,7 +165,7 @@ Internet-Draft              It's Just a Name                   June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 3]
+Thomson                 Expires December 27, 2018               [Page 3]
 
 Internet-Draft              It's Just a Name                   June 2018
 
@@ -221,7 +221,7 @@ Internet-Draft              It's Just a Name                   June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 4]
+Thomson                 Expires December 27, 2018               [Page 4]
 
 Internet-Draft              It's Just a Name                   June 2018
 
@@ -277,7 +277,7 @@ Internet-Draft              It's Just a Name                   June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 5]
+Thomson                 Expires December 27, 2018               [Page 5]
 
 Internet-Draft              It's Just a Name                   June 2018
 
@@ -333,7 +333,7 @@ Internet-Draft              It's Just a Name                   June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 6]
+Thomson                 Expires December 27, 2018               [Page 6]
 
 Internet-Draft              It's Just a Name                   June 2018
 
@@ -389,7 +389,7 @@ Internet-Draft              It's Just a Name                   June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 7]
+Thomson                 Expires December 27, 2018               [Page 7]
 
 Internet-Draft              It's Just a Name                   June 2018
 
@@ -410,19 +410,7 @@ Internet-Draft              It's Just a Name                   June 2018
 
 13.  References
 
-13.1.  Normative References
-
-   [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
-              3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
-              <https://www.rfc-editor.org/info/rfc2026>.
-
-   [RFC5764]  McGrew, D. and E. Rescorla, "Datagram Transport Layer
-              Security (DTLS) Extension to Establish Keys for the Secure
-              Real-time Transport Protocol (SRTP)", RFC 5764,
-              DOI 10.17487/RFC5764, May 2010,
-              <https://www.rfc-editor.org/info/rfc5764>.
-
-13.2.  Informative References
+13.1.  Informative References
 
    [DASH]     "Dynamic adaptive streaming over HTTP (DASH)", ISO/
               IEC 23009-1, May 2014.
@@ -443,17 +431,30 @@ Internet-Draft              It's Just a Name                   June 2018
               Process", draft-loughney-newtrk-one-size-fits-all-01 (work
               in progress), March 2006.
 
-
-
-Thomson                 Expires December 23, 2018               [Page 8]
-
-Internet-Draft              It's Just a Name                   June 2018
-
+   [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
+              3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
+              <https://www.rfc-editor.org/info/rfc2026>.
 
    [RFC4846]  Klensin, J., Ed. and D. Thaler, Ed., "Independent
               Submissions to the RFC Editor", RFC 4846,
               DOI 10.17487/RFC4846, July 2007,
               <https://www.rfc-editor.org/info/rfc4846>.
+
+
+
+
+
+
+Thomson                 Expires December 27, 2018               [Page 8]
+
+Internet-Draft              It's Just a Name                   June 2018
+
+
+   [RFC5764]  McGrew, D. and E. Rescorla, "Datagram Transport Layer
+              Security (DTLS) Extension to Establish Keys for the Secure
+              Real-time Transport Protocol (SRTP)", RFC 5764,
+              DOI 10.17487/RFC5764, May 2010,
+              <https://www.rfc-editor.org/info/rfc5764>.
 
    [RFC6189]  Zimmermann, P., Johnston, A., Ed., and J. Callas, "ZRTP:
               Media Path Key Agreement for Unicast Secure RTP",
@@ -477,7 +478,7 @@ Internet-Draft              It's Just a Name                   June 2018
               Path Key Agreement for Unicast Secure RTP", draft-
               zimmermann-rfc6189bis-00 (work in progress), July 2016.
 
-13.3.  URIs
+13.2.  URIs
 
    [1] http://zfoneproject.com/zrtp_ietf.html
 
@@ -500,8 +501,7 @@ Appendix A.  The STD Subseries
 
 
 
-
-Thomson                 Expires December 23, 2018               [Page 9]
+Thomson                 Expires December 27, 2018               [Page 9]
 
 Internet-Draft              It's Just a Name                   June 2018
 
@@ -557,4 +557,4 @@ Author's Address
 
 
 
-Thomson                 Expires December 23, 2018              [Page 10]
+Thomson                 Expires December 27, 2018              [Page 10]

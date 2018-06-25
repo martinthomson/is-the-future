@@ -4,8 +4,8 @@
 
 Network Working Group                                         M. Thomson
 Internet-Draft                                                   Mozilla
-Intended status: Informational                             June 21, 2018
-Expires: December 23, 2018
+Intended status: Informational                             June 25, 2018
+Expires: December 27, 2018
 
 
                 Independent Submissions Into The Future
@@ -44,7 +44,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on December 23, 2018.
+   This Internet-Draft will expire on December 27, 2018.
 
 
 
@@ -53,7 +53,7 @@ Status of This Memo
 
 
 
-Thomson                 Expires December 23, 2018               [Page 1]
+Thomson                 Expires December 27, 2018               [Page 1]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Thomson                 Expires December 23, 2018               [Page 2]
+Thomson                 Expires December 27, 2018               [Page 2]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -165,7 +165,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 3]
+Thomson                 Expires December 27, 2018               [Page 3]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -221,7 +221,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 4]
+Thomson                 Expires December 27, 2018               [Page 4]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -277,7 +277,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 5]
+Thomson                 Expires December 27, 2018               [Page 5]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -333,7 +333,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 6]
+Thomson                 Expires December 27, 2018               [Page 6]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -389,7 +389,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 7]
+Thomson                 Expires December 27, 2018               [Page 7]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -445,7 +445,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 8]
+Thomson                 Expires December 27, 2018               [Page 8]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -501,7 +501,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018               [Page 9]
+Thomson                 Expires December 27, 2018               [Page 9]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -557,7 +557,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018              [Page 10]
+Thomson                 Expires December 27, 2018              [Page 10]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -613,7 +613,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018              [Page 11]
+Thomson                 Expires December 27, 2018              [Page 11]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -669,7 +669,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018              [Page 12]
+Thomson                 Expires December 27, 2018              [Page 12]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -725,7 +725,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018              [Page 13]
+Thomson                 Expires December 27, 2018              [Page 13]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -781,7 +781,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018              [Page 14]
+Thomson                 Expires December 27, 2018              [Page 14]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -837,7 +837,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018              [Page 15]
+Thomson                 Expires December 27, 2018              [Page 15]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -893,7 +893,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018              [Page 16]
+Thomson                 Expires December 27, 2018              [Page 16]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -949,7 +949,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018              [Page 17]
+Thomson                 Expires December 27, 2018              [Page 17]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -1005,7 +1005,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018              [Page 18]
+Thomson                 Expires December 27, 2018              [Page 18]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -1061,7 +1061,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018              [Page 19]
+Thomson                 Expires December 27, 2018              [Page 19]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -1117,7 +1117,7 @@ Internet-Draft       Independent Submissions Future            June 2018
 
 
 
-Thomson                 Expires December 23, 2018              [Page 20]
+Thomson                 Expires December 27, 2018              [Page 20]
 
 Internet-Draft       Independent Submissions Future            June 2018
 
@@ -1173,4 +1173,4 @@ Author's Address
 
 
 
-Thomson                 Expires December 23, 2018              [Page 21]
+Thomson                 Expires December 27, 2018              [Page 21]
