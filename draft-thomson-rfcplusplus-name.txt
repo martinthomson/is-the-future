@@ -91,8 +91,8 @@ Internet-Draft              It's Just a Name                   June 2018
    [RFC5764] for the same use case.
 
    Similarly, HTTP Live Streaming (HLS) [RFC8216] was published on the
-   Independent Submissions Stream in defiance of a standard built on
-   consensus, MPEG-DASH [DASH].
+   Independent Submissions Stream in defiance of a standardized
+   protocol, MPEG-DASH [DASH].
 
    Both describe de-facto standards, each of which are implemented in
    more than one product and deployed.  Both are also highly contentious
