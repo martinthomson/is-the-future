@@ -66,7 +66,7 @@ stream after the IETF reached consensus to publish DTLS-SRTP {{?RFC5764}} for
 the same use case.
 
 Similarly, HTTP Live Streaming (HLS) {{?RFC8216}} was published on the
-Independent Submissions Stream in defiance of a standard built on consensus,
+Independent Submissions Stream in defiance of a standardized protocol,
 MPEG-DASH {{DASH}}.
 
 Both describe de-facto standards, each of which are implemented in more than one
