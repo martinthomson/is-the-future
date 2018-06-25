@@ -52,7 +52,7 @@ The label "RFC" must not be used unless a certain standard is met.  Documents
 that do not meet the agreed standard might still be worthy of publication, but
 they should not be granted the same label.
 
-The Internet Standards Process {{!RFC2026}} describes a process that has
+The Internet Standards Process {{?RFC2026}} describes a process that has
 consistently produced quality documents.  This document proposes an experiment
 that limits the use of the "RFC" label to the product of that process.
 
@@ -62,7 +62,7 @@ that limits the use of the "RFC" label to the product of that process.
 Misconceptions about the significance of publication as an RFC is commonplace.
 
 For example, ZRTP {{?RFC6189}} was published as an informational RFC on the IETF
-stream after the IETF reached consensus to publish DTLS-SRTP {{!RFC5764}} for
+stream after the IETF reached consensus to publish DTLS-SRTP {{?RFC5764}} for
 the same use case.
 
 Similarly, HTTP Live Streaming (HLS) {{?RFC8216}} was published on the
