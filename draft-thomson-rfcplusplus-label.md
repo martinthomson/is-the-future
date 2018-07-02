@@ -131,9 +131,9 @@ While neither document represents IETF consensus, they are both technical
 contributions of some value.
 
 It's not obvious that this goal is not accomplished by publishing specifications
-on a web site.  For instance, the examples from {{confused}} both have a
-presence on the Internet where specifications and related material are published
-(<http://zfoneproject.com/zrtp_ietf.html> and
+on a web site.  For instance, the examples from {{confused}} both ZRTP and HLS
+have a presence on the Internet where specifications and related material are
+published (<http://zfoneproject.com/zrtp_ietf.html> and
 <https://developer.apple.com/streaming/> respectively).  The Internet Archive
 (<https://web.archive.org/>) shows that these sites have been available and
 stable for an extended period.  Furthermore, both websites publish links to
