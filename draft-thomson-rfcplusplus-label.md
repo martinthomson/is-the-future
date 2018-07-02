@@ -238,8 +238,8 @@ such as colour, layout, or font choice to represent origin and status.  However,
 the choice of rendering is not part of the canonical XML document.  Alternative
 renderings could legitimately erase that information.
 
-That leads to the conclusion that better labelling, while possibly helpful,
-would not be sufficiently effective in correcting misconceptions.
+That leads to the conclusion that clearer marking for status, while possibly
+helpful, would not be sufficiently effective in correcting misconceptions.
 
 
 # How To Measure Success
