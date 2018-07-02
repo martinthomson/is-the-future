@@ -267,8 +267,8 @@ Internet-Draft               The Label "RFC"                   July 2018
 
    If the community determines that the negative consequences of this
    experiment outweigh the benefits, then documents published with new
-   labels can be allocated RFC numbers.  This requires several modest
-   constraints:
+   labels will be allocated RFC numbers.  This requires that during the
+   experiment:
 
    o  the altered publication system needs to produce an output for
       affected documents that would be compatible with later publication
@@ -286,9 +286,10 @@ Internet-Draft               The Label "RFC"                   July 2018
       be considered when implementing changes to processes on affected
       streams.
 
-   It might be possible to reserve RFC numbers, which would preserve the
-   loosely chronological ordering of RFCs by number.  This document does
-   not take any position on whether this effort would be worthwhile.
+   It might also be possible to reserve RFC numbers, which would
+   preserve the loosely chronological ordering of RFCs by number.  This
+   document does not take any position on whether this effort would be
+   worthwhile.
 
 4.4.  A New Label is Necessary
 
@@ -312,8 +313,8 @@ Internet-Draft               The Label "RFC"                   July 2018
    legitimately erase that information.
 
    That leads to the conclusion that clearer marking for status, while
-   possibly helpful, would not be sufficiently effective in correcting
-   misconceptions.
+   possibly helpful, would not be sufficiently effective in addressing
+   the problem.
 
 5.  How To Measure Success
 
@@ -321,15 +322,14 @@ Internet-Draft               The Label "RFC"                   July 2018
    evidence to assess the effect of a change of labels.
 
    One hypothesis this experiment proposes to test is the degree to
-   which the "RFC" label motivates authors seeking publication.
-   Measuring the rate of submission and publication for affected
-   documents could provide some insight.
+   which the "RFC" label motivates authors seeking publication.  Though
+   numbers are unlikely to provide a clear answer when so much of the
+   problem is subjective, measuring the rate of submission and
+   publication for affected documents could provide some insight.
 
-   Of those, documents published by the IETF as Informational, and those
-   published on the Independent Submissions Stream are most likely to
-   have a high enough volume to produce a large enough sample.
-   Publication rates for other sources might not be high enough to
-   observe differences.  Measuring different sources gives a multiple
+   Measuring different sources gives a multiple perspectives relative to
+   the output of the standards process.  For instance, informational
+   documents are closely related to the standards process and so are
 
 
 
@@ -338,11 +338,13 @@ Thomson                  Expires January 3, 2019                [Page 6]
 Internet-Draft               The Label "RFC"                   July 2018
 
 
-   perspectives relative to the output of the standards process.  For
-   instance, informational documents are closely related to the
-   standards process and so are hypothesized to be relatively unaffected
-   by any change, whereas IAB documents might follow a separate cadence
-   and could be unaffected.
+   hypothesized to be relatively unaffected by any change, whereas IAB
+   documents might follow a separate cadence and could be unaffected.
+
+   Documents published by the IETF as Informational, and those published
+   on the Independent Submissions Stream are most likely to have a high
+   enough volume to produce a large enough sample.  Publication rates
+   for other sources might not be high enough to observe differences.
 
    In the first test, the rate of requests for publication over time is
    recorded.  If the introduction of the experiment causes the number to
@@ -354,14 +356,18 @@ Internet-Draft               The Label "RFC"                   July 2018
    documents published with the "RFC" label could also indicate that a
    change of label has some effect.
 
+   Trends in publication rates are easy to gather; some work might be
+   required to establish the rate of submissions prior to the
+   commencement of any experiment.
+
    Any measurement is susceptible to noise, and the rate of publication
-   on many streams is not very high.  Some allowance should be made for
-   fluctuations as the experiment is commenced, or as processes change
-   to support the experiment.
+   on many streams is not high, nor is it consistent.  Some allowance
+   should be made for fluctuations as the experiment is commenced, or as
+   processes change to support the experiment.
 
 6.  Security and Privacy Considerations
 
-   It seems like that there truly are no considerations of note.
+   It is believed that there are none.
 
 7.  IANA Considerations
 
@@ -380,12 +386,6 @@ Internet-Draft               The Label "RFC"                   July 2018
    [DASH]     "Dynamic adaptive streaming over HTTP (DASH)", ISO/
               IEC 23009-1, May 2014.
 
-   [HLSBIS]   Pantos, R., "HTTP Live Streaming 2nd Edition", draft-
-              pantos-hls-rfc8216bis-02 (work in progress), June 2018.
-
-   [NAT-PMP]  Cheshire, S. and M. Krochmal, "NAT Port Mapping Protocol
-              (NAT-PMP)", RFC 6886, DOI 10.17487/RFC6886, April 2013,
-              <https://www.rfc-editor.org/info/rfc6886>.
 
 
 
@@ -393,6 +393,13 @@ Thomson                  Expires January 3, 2019                [Page 7]
 
 Internet-Draft               The Label "RFC"                   July 2018
 
+
+   [HLSBIS]   Pantos, R., "HTTP Live Streaming 2nd Edition", draft-
+              pantos-hls-rfc8216bis-02 (work in progress), June 2018.
+
+   [NAT-PMP]  Cheshire, S. and M. Krochmal, "NAT Port Mapping Protocol
+              (NAT-PMP)", RFC 6886, DOI 10.17487/RFC6886, April 2013,
+              <https://www.rfc-editor.org/info/rfc6886>.
 
    [NEWTRK-RFC]
               Rosenberg, J. and A. Mankin, "What's In a Name: RFC",
@@ -436,19 +443,18 @@ Internet-Draft               The Label "RFC"                   July 2018
               Path Key Agreement for Unicast Secure RTP", draft-
               zimmermann-rfc6189bis-00 (work in progress), July 2016.
 
-8.2.  URIs
-
-   [1] http://zfoneproject.com/zrtp_ietf.html
-
-   [2] https://developer.apple.com/streaming/
-
-
 
 
 Thomson                  Expires January 3, 2019                [Page 8]
 
 Internet-Draft               The Label "RFC"                   July 2018
 
+
+8.2.  URIs
+
+   [1] http://zfoneproject.com/zrtp_ietf.html
+
+   [2] https://developer.apple.com/streaming/
 
    [3] https://web.archive.org/
 
@@ -467,12 +473,6 @@ Author's Address
    Mozilla
 
    Email: martin.thomson@gmail.com
-
-
-
-
-
-
 
 
 
