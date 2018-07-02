@@ -311,8 +311,8 @@ Internet-Draft               The Label "RFC"                   July 2018
    part of the canonical XML document.  Alternative renderings could
    legitimately erase that information.
 
-   That leads to the conclusion that better labelling, while possibly
-   helpful, would not be sufficiently effective in correcting
+   That leads to the conclusion that clearer marking for status, while
+   possibly helpful, would not be sufficiently effective in correcting
    misconceptions.
 
 5.  How To Measure Success
