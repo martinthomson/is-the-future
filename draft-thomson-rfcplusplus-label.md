@@ -205,8 +205,8 @@ already published.
 ## Should the Experiment Fail
 
 If the community determines that the negative consequences of this experiment
-outweigh the benefits, then documents published with new labels can be allocated
-RFC numbers.  This requires several modest constraints:
+outweigh the benefits, then documents published with new labels will be
+allocated RFC numbers.  This requires that during the experiment:
 
 * the altered publication system needs to produce an output for affected
   documents that would be compatible with later publication as RFC; and
@@ -214,9 +214,9 @@ RFC numbers.  This requires several modest constraints:
 * the ongoing experiment - specifically its potential for failure - be
   considered when implementing changes to processes on affected streams.
 
-It might be possible to reserve RFC numbers, which would preserve the loosely
-chronological ordering of RFCs by number.  This document does not take any
-position on whether this effort would be worthwhile.
+It might also be possible to reserve RFC numbers, which would preserve the
+loosely chronological ordering of RFCs by number.  This document does not take
+any position on whether this effort would be worthwhile.
 
 
 ## A New Label is Necessary
@@ -284,7 +284,7 @@ the experiment.
 
 # Security and Privacy Considerations
 
-It seems like that there truly are no considerations of note.
+It is believed that there are none.
 
 
 # IANA Considerations
