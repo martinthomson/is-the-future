@@ -82,8 +82,8 @@ stream after the IETF reached consensus to develop DTLS-SRTP {{?RFC5764}} for
 the same use case.
 
 Similarly, HTTP Live Streaming (HLS) {{?RFC8216}} was published on the
-Independent Submissions Stream in defiance of a standardized protocol,
-MPEG-DASH {{DASH}}.
+Independent Submissions Stream in defiance of a standardized protocol, MPEG-DASH
+{{DASH}}.
 
 Both describe de-facto standards, each of which are implemented in more than one
 product and deployed.  Both are also highly contentious.
@@ -138,13 +138,13 @@ stable for an extended period.  Furthermore, both websites publish links to
 updated specifications ({{?ZRTPBIS=I-D.zimmermann-rfc6189bis}} and
 {{?HLSBIS=I-D.pantos-hls-rfc8216bis}}).
 
-If the intent is to reach an IETF audience, then there are many effective
-methods and venues for publication.  Input from the academic community is most
-often provided in the form of papers, but inputs are not limited to any one
-form: blogs, journal articles, source code repositories, and other mediums are
-widely used, even posts to mailing lists.  Normative dependencies require a
-somewhat higher standard of publication, but all of these can be cited if
-necessary.
+If the intent is to reach an IETF audience, then there are many other venues for
+publication that achieve the same goal.  For instance, input from the academic
+community is often provided in the form of papers.  Other inputs variously use
+blogs, journal articles, source code repositories, and even posts to mailing
+lists.  For work that is taken as a normative dependency a higher standard of
+publication is likely necessary, but most of these alternative forms can be
+cited informatively.
 
 
 # RFC == Standards Track
@@ -163,16 +163,16 @@ Standards Process would ensure clarity about what "RFC" means.
 ## New Labels for Other Documents
 
 The IETF publishes informational and experimental documents.  The expectations
-around what level of agreement is necessary to publish these documents is far
-less than those that it publishes on the standards track and so these documents
-should use other labels.
+around what level of agreement is necessary to publish these documents differs
+from documents published on the standards track.  These documents should use
+other labels.
 
 The IETF publishes best current practice (BCP) documents that describe its own
 processes.  These don't codify agreement about a protocol inasmuch as they don't
 describe something implemented in software.  They do follow the same processes
 and require similar levels of agreement.  Use of the RFC label for BCP documents
-is appropriate, though there is no inherent reason not to use another label,
-particularly if other labels are created for documents from different sources.
+is appropriate, though there is no inherent reason not to use another label
+either.
 
 Similarly, the IRTF and IAB produce documents that do not represent an agreement
 in the same way.  These documents should use other labels.
@@ -183,7 +183,7 @@ with the "RFC" label, then it should be possible to attain IETF consensus for
 publication in the RFC Series.
 
 The Independent Submissions Editor also publishes RFCs.  These documents should
-use different labels.
+use other labels.
 
 
 ## No Change to Existing Documents
