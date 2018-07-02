@@ -239,7 +239,7 @@ the choice of rendering is not part of the canonical XML document.  Alternative
 renderings could legitimately erase that information.
 
 That leads to the conclusion that clearer marking for status, while possibly
-helpful, would not be sufficiently effective in correcting misconceptions.
+helpful, would not be sufficiently effective in addressing the problem.
 
 
 # How To Measure Success
@@ -248,17 +248,21 @@ A term of 3 years is proposed as being long enough to provide enough evidence to
 assess the effect of a change of labels.
 
 One hypothesis this experiment proposes to test is the degree to which the "RFC"
-label motivates authors seeking publication.  Measuring the rate of submission
-and publication for affected documents could provide some insight.
+label motivates authors seeking publication.  Though numbers are unlikely to
+provide a clear answer when so much of the problem is subjective, measuring the
+rate of submission and publication for affected documents could provide some
+insight.
 
-Of those, documents published by the IETF as Informational, and those published
-on the Independent Submissions Stream are most likely to have a high enough
-volume to produce a large enough sample.  Publication rates for other sources
-might not be high enough to observe differences.  Measuring different sources
-gives a multiple perspectives relative to the output of the standards process.
-For instance, informational documents are closely related to the standards
-process and so are hypothesized to be relatively unaffected by any change,
-whereas IAB documents might follow a separate cadence and could be unaffected.
+Measuring different sources gives a multiple perspectives relative to the output
+of the standards process.  For instance, informational documents are closely
+related to the standards process and so are hypothesized to be relatively
+unaffected by any change, whereas IAB documents might follow a separate cadence
+and could be unaffected.
+
+Documents published by the IETF as Informational, and those published on the
+Independent Submissions Stream are most likely to have a high enough volume to
+produce a large enough sample.  Publication rates for other sources might not be
+high enough to observe differences.
 
 In the first test, the rate of requests for publication over time is recorded.
 If the introduction of the experiment causes the number to drop relative to
@@ -269,9 +273,13 @@ The second test will record the number of documents published using new labels.
 A drop in publication rate relative to that of those documents published with
 the "RFC" label could also indicate that a change of label has some effect.
 
+Trends in publication rates are easy to gather; some work might be required to
+establish the rate of submissions prior to the commencement of any experiment.
+
 Any measurement is susceptible to noise, and the rate of publication on many
-streams is not very high.  Some allowance should be made for fluctuations as the
-experiment is commenced, or as processes change to support the experiment.
+streams is not high, nor is it consistent.  Some allowance should be made for
+fluctuations as the experiment is commenced, or as processes change to support
+the experiment.
 
 
 # Security and Privacy Considerations
