@@ -106,12 +106,14 @@ comparative criticisms makes it possible to interpret the document as it
 represents itself: a newer, superior technique.
 
 There are numerous examples of RFCs that make an honest representation of their
-status.  In addition to those proprietary documents that identify that status in
-their title, a number of documents are clear about status and intent.  For
-example, though RFC 6886 {{?NAT-PMP=RFC6886}} was deployed, it includes sections
-on how to migrate to the IETF consensus protocol {{?RFC6887}}; to go further,
-because RFC 5690 {{?ACK-CONGESTION=RFC5690}} was never deployed, it avoids any
-misapprehension by not requesting allocation of necessary codepoints.
+status in more than just the boilerplate.  In addition to those proprietary
+documents that identify that status in their title, a number of documents are
+clear about status and intent.  For example, though RFC 6886
+{{?NAT-PMP=RFC6886}} was deployed, it includes clear statements on status, as
+well as sections on how to migrate to the IETF consensus protocol {{?RFC6887}};
+to go further, because RFC 5690 {{?ACK-CONGESTION=RFC5690}} was never deployed,
+it avoids any misapprehension by not requesting allocation of necessary
+codepoints.
 
 
 # No Shortage of Venues for Publication
